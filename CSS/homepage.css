@@ -1,0 +1,17 @@
+#WelcomeContainer {
+    margin-top: 10%;
+    padding-top: 20%;
+    margin: auto;
+    left: 50%;
+    max-width: 60%;
+    height: 30%;
+    text-align: center;
+}
+
+#goin{
+    text-decoration: none;
+    color: black;
+}
+#goin:hover {
+  color: #8a994c;  
+}

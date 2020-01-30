@@ -1,0 +1,15 @@
+/* css imports */
+@import url('homepage.css');
+@import url('blog-list.css');
+@import url('blog-details.css');
+
+/* Global Styles */
+html{
+    height: 100%;
+}
+
+body {
+    background-color: #bcb7d8;
+    height: 100%;
+}
+
