@@ -1,0 +1,81 @@
+/* Header */
+#details-header{
+    min-height: auto;
+    color: white;
+}
+
+#details-header .content-wrap,
+#details-section-a .content-wrap{
+    padding: 0 1.5em;
+}
+
+/* Section - A */
+
+#details-section-a .bg-image{
+    background-image: url(../assets/ai.jpg);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+#details-section-a{
+    background: #d7d2c1;
+    color: #595d3d;
+    padding-bottom: 1.5em;
+}
+
+/* Section - B */
+#details-section-b{
+    padding: 2em 1em;
+}
+
+/* Section - C */
+
+#details-section-c {
+    background: white;
+    color: #444;
+    padding: 2em;
+}
+#details-section-c .content-title{
+    padding-top: 0;
+}
+
+
+/* Footer */
+#footer {
+    background: black;
+    color: white;
+    padding: 3em;
+}
+
+/* Media Querries */
+@media(min-width: 728px){
+    .grid{
+        display: grid;
+        /* grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr; */
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .content-wrap, #footer div{
+        grid-column: 2/8;
+    }
+
+    #details-section-b{
+        text-align: center;
+    }
+    #details-section-b img, #details-section-c img{
+        /* max-width: 500px; */
+        grid-column: 3/7;
+    }
+/* 
+    #details-section-c .content-wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    } */
+
+    
+}
