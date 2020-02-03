@@ -37,6 +37,8 @@
 /* Section - C */
 
 #details-section-c {
+    /* display: flex;
+    flex-direction: column; */
     background: white;
     color: #444;
     padding: 2em;
@@ -45,6 +47,12 @@
     padding-top: 0;
 }
 
+.avatar {
+    vertical-align: middle;
+    /* width: 100px; */
+    height: auto;
+    border-radius: 50%;
+  }
 
 /* Footer */
 #footer {
@@ -67,10 +75,14 @@
     #details-section-b{
         text-align: center;
     }
-    #details-section-b img, #details-section-c img{
+    #details-section-b img{
         /* max-width: 500px; */
         grid-column: 3/7;
     }
+    .avatar {
+        grid-column: 4/6;
+        height: auto;
+      }
 /* 
     #details-section-c .content-wrap{
         display: grid;
